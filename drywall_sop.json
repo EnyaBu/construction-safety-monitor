@@ -1,0 +1,123 @@
+{
+  "task_name": "Drywall Installation",
+  "task_code": "SOP-793-014",
+  "description": "Standard operating procedure for installing drywall sheets in residential and commercial construction",
+  "version": "1.0",
+  "last_updated": "2024-01-15",
+  
+  "safety_equipment": [
+    "hard hat",
+    "safety glasses",
+    "work gloves",
+    "dust mask",
+    "steel-toed boots"
+  ],
+  
+  "tools_required": [
+    "tape measure",
+    "utility knife",
+    "drywall saw",
+    "t-square",
+    "drill",
+    "screw gun",
+    "level",
+    "chalk line"
+  ],
+  
+  "materials_required": [
+    "drywall sheets",
+    "drywall screws",
+    "joint tape",
+    "joint compound",
+    "corner bead"
+  ],
+  
+  "steps": [
+    {
+      "id": 1,
+      "action": "Measure wall dimensions with tape measure and mark cutting lines",
+      "expected_time": 120,
+      "required_tools": ["tape measure", "chalk line"],
+      "zone": "work area",
+      "safety_notes": "Ensure accurate measurements to minimize waste",
+      "checkpoints": ["Measurements recorded", "Cutting lines marked clearly"]
+    },
+    {
+      "id": 2,
+      "action": "Cut drywall sheet to required dimensions using utility knife and t-square",
+      "expected_time": 180,
+      "required_tools": ["utility knife", "t-square", "drywall saw"],
+      "zone": "cutting area",
+      "safety_notes": "Keep fingers away from blade, use sharp blade to prevent slipping",
+      "checkpoints": ["Clean straight cuts", "Edges properly finished"]
+    },
+    {
+      "id": 3,
+      "action": "Position drywall sheet against wall studs and check alignment with level",
+      "expected_time": 90,
+      "required_tools": ["level"],
+      "zone": "work area",
+      "safety_notes": "Use proper lifting technique, get assistance for large sheets",
+      "checkpoints": ["Sheet properly aligned", "Level verified"]
+    },
+    {
+      "id": 4,
+      "action": "Secure drywall to studs using drill and drywall screws every 12 inches",
+      "expected_time": 300,
+      "required_tools": ["drill", "screw gun", "drywall screws"],
+      "zone": "work area",
+      "safety_notes": "Drive screws just below surface without breaking paper",
+      "checkpoints": ["Screws at proper intervals", "No over-driving", "Secure fastening"]
+    },
+    {
+      "id": 5,
+      "action": "Apply joint tape over seams between drywall sheets",
+      "expected_time": 240,
+      "required_tools": ["joint tape"],
+      "zone": "work area",
+      "safety_notes": "Ensure tape adheres properly with no bubbles",
+      "checkpoints": ["Tape covers all seams", "No air bubbles", "Proper adhesion"]
+    },
+    {
+      "id": 6,
+      "action": "Apply first coat of joint compound over tape and fasteners",
+      "expected_time": 360,
+      "required_tools": [],
+      "zone": "work area",
+      "safety_notes": "Wear dust mask, ensure proper ventilation",
+      "checkpoints": ["Even application", "All joints covered", "Fasteners covered"]
+    },
+    {
+      "id": 7,
+      "action": "Sand joint compound smooth after drying using sanding block",
+      "expected_time": 240,
+      "required_tools": [],
+      "zone": "work area",
+      "safety_notes": "Wear dust mask and safety glasses, ensure proper ventilation",
+      "checkpoints": ["Smooth finish", "No high spots", "Area cleaned"]
+    }
+  ],
+  
+  "quality_standards": {
+    "screw_depth": "Just below surface, paper intact",
+    "screw_spacing": "12 inches on center",
+    "joint_quality": "No visible seams after finishing",
+    "corner_alignment": "90 degree angles maintained"
+  },
+  
+  "common_hazards": [
+    "Improper lifting - back injury",
+    "Utility knife cuts",
+    "Dust inhalation",
+    "Eye injury from debris",
+    "Electrical hazard from cutting into wires"
+  ],
+  
+  "inspection_points": [
+    "Proper measurements and layout",
+    "Clean cuts with no damaged edges",
+    "Secure fastening to studs",
+    "Proper joint taping",
+    "Smooth finishing"
+  ]
+}

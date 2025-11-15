@@ -1,0 +1,66 @@
+{
+  "task_name": "Your Construction Task Name",
+  "task_code": "SOP-XXX-XXX",
+  "description": "Brief description of the construction task and its purpose",
+  "version": "1.0",
+  "last_updated": "YYYY-MM-DD",
+  
+  "safety_equipment": [
+    "hard hat",
+    "safety glasses",
+    "work gloves",
+    "Add more safety equipment as required"
+  ],
+  
+  "tools_required": [
+    "tool 1",
+    "tool 2",
+    "tool 3",
+    "Add all necessary tools"
+  ],
+  
+  "materials_required": [
+    "material 1",
+    "material 2",
+    "Add all necessary materials"
+  ],
+  
+  "steps": [
+    {
+      "id": 1,
+      "action": "Detailed description of the first step",
+      "expected_time": 120,
+      "required_tools": ["tool 1", "tool 2"],
+      "zone": "work area",
+      "safety_notes": "Important safety considerations for this step",
+      "checkpoints": ["Checkpoint 1", "Checkpoint 2"]
+    },
+    {
+      "id": 2,
+      "action": "Detailed description of the second step",
+      "expected_time": 180,
+      "required_tools": ["tool 3"],
+      "zone": "work area",
+      "safety_notes": "Safety notes for step 2",
+      "checkpoints": ["Quality check point"]
+    }
+  ],
+  
+  "quality_standards": {
+    "standard_1": "Description of quality requirement",
+    "standard_2": "Another quality requirement",
+    "tolerance": "Acceptable tolerances"
+  },
+  
+  "common_hazards": [
+    "Hazard 1 - description and risk",
+    "Hazard 2 - description and risk",
+    "Add all relevant hazards"
+  ],
+  
+  "inspection_points": [
+    "What to inspect at completion",
+    "Quality checkpoints",
+    "Safety verification points"
+  ]
+}

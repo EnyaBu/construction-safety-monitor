@@ -1,0 +1,236 @@
+{
+  "task_name": "Basic Brick Wall Construction",
+  "task_code": "SOP-BRICK-001",
+  "description": "Standard operating procedure for basic freestanding brick wall construction using common/American bond pattern (Based on Quikrete Basic Brick Construction guide)",
+  "version": "2.0",
+  "last_updated": "2024-11-15",
+  "reference": "Quikrete Basic Brick Construction Guide",
+  "reference_url": "https://www.quikrete.com/pdfs/projects/basicbrickconstruction.pdf",
+  
+  "safety_equipment": [
+    "hard hat",
+    "safety glasses",
+    "goggles",
+    "work gloves",
+    "steel-toed boots",
+    "knee pads"
+  ],
+  
+  "tools_required": [
+    "trowel",
+    "brick hammer",
+    "brick set",
+    "level",
+    "chalk line",
+    "measuring tape",
+    "jointing tool",
+    "mortarboard",
+    "wheelbarrow",
+    "hose",
+    "mason's line",
+    "line blocks",
+    "carpenter's square"
+  ],
+  
+  "materials_required": [
+    "bricks",
+    "QUIKRETE Mortar Mix",
+    "QUIKRETE Mason Mix",
+    "water"
+  ],
+  
+  "steps": [
+    {
+      "id": 1,
+      "action": "Hose down bricks several hours before work to prevent excessive moisture absorption from mortar",
+      "expected_time": 60,
+      "required_tools": ["hose"],
+      "zone": "material staging area",
+      "safety_notes": "Wet bricks improve mortar bond and workability",
+      "checkpoints": ["Bricks dampened but not soaked", "Bricks stacked along job site"]
+    },
+    {
+      "id": 2,
+      "action": "Snap chalk line on foundation to mark outer edge and guideline for wall alignment",
+      "expected_time": 120,
+      "required_tools": ["chalk line", "measuring tape"],
+      "zone": "foundation area",
+      "safety_notes": "Ensure foundation has cured for at least 2 days",
+      "checkpoints": ["Chalk line straight and visible", "Wall will be centered on foundation"]
+    },
+    {
+      "id": 3,
+      "action": "Mix QUIKRETE Mortar Mix with water until smooth plastic-like consistency is achieved",
+      "expected_time": 180,
+      "required_tools": ["wheelbarrow", "mortarboard"],
+      "zone": "mixing area",
+      "safety_notes": "Wear gloves, avoid prolonged skin contact with mortar",
+      "checkpoints": ["Smooth plastic consistency", "No lumps", "Proper workability"]
+    },
+    {
+      "id": 4,
+      "action": "Make dry run by laying stretcher bricks along chalk line with half-inch spacing for joints",
+      "expected_time": 240,
+      "required_tools": ["measuring tape"],
+      "zone": "work area",
+      "safety_notes": "Adjust joint width if necessary to avoid cutting bricks",
+      "checkpoints": ["Bricks positioned correctly", "Joint spacing marked", "No cuts needed"]
+    },
+    {
+      "id": 5,
+      "action": "Throw mortar line on foundation approximately 1 inch thick, 1 brick wide, 3-4 bricks long",
+      "expected_time": 90,
+      "required_tools": ["trowel"],
+      "zone": "work area",
+      "safety_notes": "Practice throwing lines on mortarboard first if unfamiliar with technique",
+      "checkpoints": ["Mortar evenly distributed", "Correct thickness", "Proper length"]
+    },
+    {
+      "id": 6,
+      "action": "Furrow the mortar cleanly with point of trowel to divide mortar without scraping",
+      "expected_time": 30,
+      "required_tools": ["trowel"],
+      "zone": "work area",
+      "safety_notes": "Good furrows ensure even brick laying and squeeze out excess mortar",
+      "checkpoints": ["Clean furrow created", "Mortar not scraped", "Ready for bricks"]
+    },
+    {
+      "id": 7,
+      "action": "Lay first course of stretcher bricks applying mortar to head joint and shoving firmly into place",
+      "expected_time": 300,
+      "required_tools": ["trowel", "level"],
+      "zone": "work area",
+      "safety_notes": "Tap bricks gently with trowel handle to adjust, never pull on bricks",
+      "checkpoints": ["Mortar squeezed from all joints", "Bricks plumb and level", "Proper alignment"]
+    },
+    {
+      "id": 8,
+      "action": "Trim excess mortar from sides of bricks and check alignment with level",
+      "expected_time": 90,
+      "required_tools": ["trowel", "level"],
+      "zone": "work area",
+      "safety_notes": "Ensure head joint thickness matches chalk marks",
+      "checkpoints": ["Excess mortar removed", "All bricks level", "Height consistent"]
+    },
+    {
+      "id": 9,
+      "action": "Throw mortar line and lay second backup course ensuring equal height with first course",
+      "expected_time": 300,
+      "required_tools": ["trowel", "level"],
+      "zone": "work area",
+      "safety_notes": "Do not mortar the two courses together",
+      "checkpoints": ["Backup course level with first", "No mortar between courses", "Proper spacing"]
+    },
+    {
+      "id": 10,
+      "action": "Cut two bricks to half length using hammer and brick set for header course",
+      "expected_time": 120,
+      "required_tools": ["brick hammer", "brick set", "goggles"],
+      "zone": "cutting area",
+      "safety_notes": "CRITICAL: Wear goggles when cutting bricks, score all around before breaking",
+      "checkpoints": ["Clean cuts achieved", "Half bricks ready", "Safety equipment worn"]
+    },
+    {
+      "id": 11,
+      "action": "Begin second header course with two half bricks to ensure courses are staggered",
+      "expected_time": 180,
+      "required_tools": ["trowel", "level"],
+      "zone": "work area",
+      "safety_notes": "Staggering provides structural integrity",
+      "checkpoints": ["Half bricks placed correctly", "Staggered pattern established", "Level maintained"]
+    },
+    {
+      "id": 12,
+      "action": "Lay three header bricks ensuring they are plumb and level to finish lead",
+      "expected_time": 180,
+      "required_tools": ["trowel", "level"],
+      "zone": "work area",
+      "safety_notes": "Use level to check lead is true on each course",
+      "checkpoints": ["Headers properly placed", "Lead plumb and level", "Pattern correct"]
+    },
+    {
+      "id": 13,
+      "action": "Use concave jointer to finish vertical joints first then horizontal joints as mortar begins to set",
+      "expected_time": 240,
+      "required_tools": ["jointing tool"],
+      "zone": "work area",
+      "safety_notes": "Work joints at proper time - not too wet, not too dry",
+      "checkpoints": ["Vertical joints finished", "Horizontal joints tooled", "Consistent appearance"]
+    },
+    {
+      "id": 14,
+      "action": "Stretch mason's line between completed leads and fill in outer course working from both ends",
+      "expected_time": 360,
+      "required_tools": ["mason's line", "line blocks", "trowel"],
+      "zone": "work area",
+      "safety_notes": "Line should be 1/16 inch from bricks and flush with top edges",
+      "checkpoints": ["Line properly positioned", "Work from ends to middle", "Final brick mortared both sides"]
+    },
+    {
+      "id": 15,
+      "action": "Check work with level for accuracy and finish joints with concave jointer when almost dry",
+      "expected_time": 180,
+      "required_tools": ["level", "jointing tool"],
+      "zone": "work area",
+      "safety_notes": "Final quality check before mortar fully sets",
+      "checkpoints": ["All courses level", "Joints properly finished", "Wall structurally sound"]
+    }
+  ],
+  
+  "quality_standards": {
+    "mortar_joint_width": "1/2 inch (12.7mm) for head joints",
+    "mortar_thickness": "Approximately 1 inch on foundation",
+    "wall_height_without_reinforcement": "3 feet maximum",
+    "reinforcement_required": "Steel rods or ties for walls above 3 feet",
+    "bond_pattern": "Common or American bond with header course every 5-6 courses",
+    "joint_finish": "Concave joint recommended for strength and waterproofing",
+    "lead_construction": "5-course leads built at each end before filling",
+    "plumb_tolerance": "Check with level on each course",
+    "corner_accuracy": "Use carpenter's square or 3-4-5 method"
+  },
+  
+  "common_hazards": [
+    "Back strain from improper lifting of bricks and materials",
+    "Hand and finger injuries from brick edges and cutting",
+    "Eye injury from brick fragments during cutting - MUST wear goggles",
+    "Skin irritation and chemical burns from prolonged mortar contact",
+    "Slips and falls on wet mortar or uneven surfaces",
+    "Falling bricks from unstable stacks",
+    "Wall collapse if not properly reinforced above 3 feet",
+    "Improper foundation curing leading to structural failure"
+  ],
+  
+  "inspection_points": [
+    "Foundation cured for minimum 2 days before bricklaying",
+    "Dry run completed and brick positions marked",
+    "Mortar consistency correct (smooth, plastic-like)",
+    "First course perfectly level and aligned",
+    "Proper staggering of courses (headers offset from stretchers)",
+    "Joint thickness consistent throughout (1/2 inch)",
+    "All courses checked for plumb and level",
+    "Mason's line properly positioned between leads",
+    "Joints tooled at proper time (when almost dry)",
+    "Excess mortar cleaned from brick faces",
+    "Final wall plumb, level, and structurally sound",
+    "Proper reinforcement for walls above 3 feet"
+  ],
+  
+  "brick_terminology": {
+    "stretcher": "Brick laid flat with longest dimension parallel to wall face",
+    "header": "Brick laid flat with longest dimension perpendicular to wall face",
+    "course": "Continuous horizontal row of bricks",
+    "wythe": "Continuous vertical section of masonry 4 inches or greater",
+    "rowlock": "Brick laid on its face or edge",
+    "soldier": "Brick laid on end with longest dimension vertical",
+    "lead": "Corner or end section built first as a guide",
+    "furrow": "Groove made in mortar bed with trowel point"
+  },
+  
+  "bond_patterns": {
+    "common_american": "Running bond with header course every 5-6 courses (used in this SOP)",
+    "running": "Only stretchers, simplest pattern",
+    "flemish": "Alternate stretchers and headers in each course",
+    "english": "Alternate courses of all stretchers and all headers",
+    "stack": "All vertical joints aligned (decorative only, requires reinforcement)"
+  }
+}
